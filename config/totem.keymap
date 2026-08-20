@@ -38,10 +38,10 @@
 
         nav {
             bindings = <
-            &none      &none     &none     &none      &none    &kp MINUS  &kp EQUAL       &kp LBKT      &kp RBKT   &kp BSLH
-            &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none    &kp LEFT   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none
-&kp ESCAPE  &none      &none     &none     &none      &none    &none      &none           &none         &none      &none     &kp BACKSPACE
-                                 &none     &trans     &none    &kp SPACE  &kp ENTER       &kp TAB
+            &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &none    &kp MINUS  &kp EQUAL       &kp LBKT        &kp RBKT         &kp BSLH
+            &kp LCTRL  &kp LALT              &kp LGUI               &kp LSHFT  &none    &kp LEFT   &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT        &none
+&kp ESCAPE  &none      &kp LESS_THAN         &kp GREATER_THAN       &none      &none    &none      &none           &kp LEFT_BRACE  &kp RIGHT_BRACE  &none     &kp BACKSPACE
+                                             &none                  &trans     &none    &kp SPACE  &kp ENTER       &kp TAB
             >;
         };
 
